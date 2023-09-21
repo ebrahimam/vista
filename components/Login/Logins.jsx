@@ -6,27 +6,35 @@ export default function Logins() {
     <div className="login-container">
         <div className="login">
             <div className="logo">
-              <img src="/icons/Icon=Logo Dark.png" alt="dont" width={100} height={200}/>
+              <img src="/Icon.png" alt="dont" width={169} height={169}/>
             </div>
             <div className="logins">
               <span>ورود</span>
               <div className="content">
               <form>
                 <div className="name">
-                <input type="text" placeholder='D'/>
-                <i><AiOutlineMail/></i>
+                <i><AiOutlineMail size={18}/></i>
+                <input type="text" placeholder='آدرس ایمیل'/>
+                
                 </div>
                 <div className="password">
-                  <input type="text" />
-                  <i></i>
-                  <a href="#">رمز عبور خودرافراموش کرده ام</a>
+                <i>
+                    <AiOutlineMail size={18}/>
+                  </i>
+                  <input type="text" placeholder='رمز عبور' />
+                  
+                  
+                </div>
+                <a href="#">رمز عبور خودرافراموش کرده ام</a>
                   <button>ورود</button>
-                  <button>ورود با حساب گوگل</button>
+                  <button >
+                  <img src="/icons/Icon=google.png" alt="" style={{verticalAlign:"middle"}}/>
+                    ورود با حساب گوگل
+                  </button>
                   <span>
-                    حساب کاربری ندارید
+                     حساب کاربری ندارید؟
                     <a href="#">ثبت نام</a>
                   </span>
-                </div>
                 
 
                 </form>
