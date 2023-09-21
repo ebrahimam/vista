@@ -1,13 +1,25 @@
 import React from 'react'
-import 'boxicons'
+import { BiLogoTelegram,BiLogoTwitter,BiLogoWhatsapp,BiLogoInstagram } from "react-icons/bi";
 export default function Footer() {
   return (
     <div className="footer">
         <div className="footers">
             <div className="social">
-                <i className="bx bx-hot"></i>
+                <a href="#">
+                    <BiLogoTelegram  size={22}/>
+                    </a>
+                    <a href="#">
+                        <BiLogoInstagram size={22}/>
+                    </a>
+                <a href="#">
+                    <BiLogoWhatsapp size={22}/>
+                </a>
+                <a href="#">
+                      <BiLogoTwitter size={22}/>
+                </a>
+              
             </div>
-            <h3>ویستا،پلتفرم جامع معاملات ارز دیجیتال</h3>
+            <h5>ویستا،پلتفرم جامع معاملات ارز دیجیتال</h5>
         </div>
     </div>
   )
