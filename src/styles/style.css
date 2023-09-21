@@ -1,0 +1,115 @@
+@font-face {
+    font-family: vazir;
+    src: url('/fonts/Vazir-Medium.ttf');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a 
+{
+    text-decoration: none;
+}
+ul 
+{
+    align-items: center;
+    list-style-type: none;
+}
+body 
+{
+    font-family: vazir;
+    background-image: url('/Login/Pattern.png');
+}
+
+    
+    /* CSS */
+    .buttons {
+      background-color: rgb(227, 41, 100);
+      border: 1px solid rgb(227, 41, 100);
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+      color: #fff;
+      cursor: pointer;
+      font-family: "vazir";
+      font-size: 14px;
+      outline: none;
+      padding: 7px 15px;
+      text-align: center;
+      transition: transform 150ms, box-shadow 150ms;
+      touch-action: manipulation;
+    }
+    .buttons-emp
+    {
+        background-color: transparent;
+        border: 1px solid rgb(227, 41, 100);
+        border-radius: 6px;
+        color: rgb(227, 41, 100);
+      cursor: pointer;
+      font-family: "vazir";
+      font-size: 14px;
+      outline: none;
+      padding: 7px 15px;
+      text-align: center;
+      transition: transform 150ms, box-shadow 150ms;
+      touch-action: manipulation;
+      transition: 0.45s all;
+    }
+    .buttons-emp:hover 
+    {
+        background-color: rgb(227, 41, 100);
+        color: white;
+    }
+    .buttons:hover {
+      box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    }
+    
+
+/* 
+---------------header --------------------------- */
+.header
+ {
+    max-width: 1440px;
+    padding: 5px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2rem;
+
+ }
+ .header ul 
+ {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+ }
+.header .actions 
+{
+    display: flex;
+    gap: 1rem;
+}
+.header .right {
+    display: flex;
+    align-items: center;
+}
+.header .right ul   {
+        gap: 20px;
+        direction: rtl;
+}
+.header .right a {
+    align-items: center;
+    font-size: 14px;
+    color: rgb(227, 41, 100);
+}
+
+
+
+
+
+
+
+
+
