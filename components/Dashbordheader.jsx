@@ -10,8 +10,13 @@ export default function Header() {
                 مرجان خلیل پور
                 <MdExpandMore size={18} style={{verticalAlign:"middle",marginLeft:"0.5rem"}} className='icon'/>
             </button>
-            <MdNotificationsNone size={22} className='icon'/>
-            <MdOutlineChatBubbleOutline size={22} className='icon'/>
+           <a href="#">
+            <MdNotificationsNone size={22} className='icon' />
+           </a>
+            <a href="#">
+                <MdOutlineChatBubbleOutline size={22} className='icon' />
+            </a>
+            
         </div>
         <div className="right">
             <div className="icon"></div>

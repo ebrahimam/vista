@@ -6,8 +6,11 @@ export default function index() {
     <React.Fragment>
       
         <Link href="/">New Page</Link>
+        <br/>
         <Link href="/Login">Log in</Link>
+        <br/>
         <Link href="/Signin">Sign in</Link>
+        <br/>
         <Link href="/Chat">Chat</Link>
     </React.Fragment>
     )

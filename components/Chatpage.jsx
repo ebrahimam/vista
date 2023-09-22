@@ -14,28 +14,19 @@ export default function Chatpage() {
                             </div>
                             <div className="text">
                                 <span>مرجان خلیل پور</span><br />
-                                <span>سطح 2کاریری2</span>
+                                <span style={{color:"rgb(37,37,37)"}}>سطح 2 کاربری</span>
                             </div>
                         </div>
                     </div>
                     <div className="chat-dis">
                         <div className="notme">
                             <div className="chat-me">
-                               <p>
-                                سلام!!
-                                <br />
-                                میشه رسیدتون رو برانم ارسال کنید؟
-                               </p>
+                               <p>سلام!!<br /> میشه رسیدتون رو برام ارسال کنید؟</p>
                             </div>
                         </div>
                         <span className='chat-date'>12 june</span>
                         <div className="me">
-                            <p>
-                                سلام 
-                                <br />
-                                چشم حتما
-                             
-                            </p>
+                            <p>سلام <br />چشم حتما</p>
                             </div> 
                         <span className='chat-date'>13 Aug</span>
                     </div>
@@ -43,7 +34,7 @@ export default function Chatpage() {
                         <div className="input-box">
                              <input type="text" color='purple' />
                              <a href="#">
-                                 <AiOutlineSend size={16}/>
+                                 <AiOutlineSend size={20} style={{verticalAlign:"middle",marginLeft:"0.6rem"}}/>
                              </a>
                        
                         </div>

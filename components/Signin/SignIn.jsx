@@ -15,7 +15,7 @@ export default function Signin() {
               <img src="/Icon.png" alt="dont" width={169} height={169}/>
             </div>
            <div className="right">
-            <h3>ثبت نام</h3>
+            <h3 >ثبت نام</h3>
             <form onSubmit={handlesubmit}>
                 <div className="email">
                 <input type="text" name='email' />
