@@ -52,7 +52,7 @@ export default function Chatpage() {
                                 <span>21400/12/16 | 13:05</span>
                             </div>
                             <div className="image">
-                                <img src="/image 5(1).png" alt="" />
+                                <img src="/image 5(1).png" alt="not found" />
                             </div>
                         </div>
                          
