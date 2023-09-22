@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineMail} from "react-icons/ai";
+import { AiOutlineEdit, AiOutlineLock, AiOutlineMail} from "react-icons/ai";
 export default function Logins() {
   return (
     <>
@@ -19,7 +19,7 @@ export default function Logins() {
                 </div>
                 <div className="password">
                 <i>
-                    <AiOutlineMail size={18}/>
+                    <AiOutlineLock size={18}/>
                   </i>
                   <input type="text" placeholder='رمز عبور' />
                   

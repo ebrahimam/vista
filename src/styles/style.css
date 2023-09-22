@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: vazir;
     src: url('/fonts/Vazir-Medium.ttf');
@@ -71,7 +72,7 @@ body
 .header
  {
     max-width: 1440px;
-    padding: 5px 0;
+    padding: 0.8rem 0;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -79,6 +80,7 @@ body
     margin: 0 2rem;
 
  }
+ /* ------list------- */
  .header ul 
  {
     display: flex;
@@ -108,15 +110,13 @@ body
 .login-container 
 {
     width: 100%;
-  
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
     top: 100px;
     left: 0;
-    right: 0;
-    
+    right: 0;   
 }
 .login-container .login 
 {
@@ -153,6 +153,7 @@ body
     flex-direction: column;
     width: 100%;
 }
+/* -------------Form-settings ----------------- */
 .login-container .login .logins span
 {
     display: block;
@@ -227,7 +228,10 @@ background-color: rgb(242, 242, 242);
 {
     color: blue;
 }
-/* -------------------footer --------------------------- */
+/* -------------------
+footer 
+with position 
+--------------------------- */
 .footer {
     position:absolute;
     width: 100%;
@@ -332,3 +336,197 @@ background-color: rgb(242, 242, 242);
 {
     margin-top: 1rem;
 }
+/* ----------------Chat Page-------------------- */
+.chat-container 
+{
+    width: 100%;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.chat-container .inner 
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+   
+    padding: 1rem 2rem;
+}
+.chat-container .inner .chat 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-basis: 60%;
+    float: right;
+    direction: rtl;
+    box-shadow: 0px 0px 32px 0px rgba(125, 109, 114, 0.12);
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+}
+
+.chat-container .inner .chat .top {
+    float: right;
+}
+.chat-container .inner .chat .top .user-profile {
+    display: flex;
+    flex-direction: row;
+}
+.chat-container .inner .chat .top .user-profile .image 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-radius: 5px;
+}
+.chat-container .inner .chat .top .user-profile .image img  {
+    border-radius: 5px;
+}
+.chat-container .inner .chat .top .user-profile .text 
+{
+    padding: 0 1rem;
+}
+.chat-container .inner .chat-dis .notme .chat-me {
+    background-color: rgb(245, 193, 193);
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    color: rgb(83, 83, 83);
+}
+.chat-container .inner .chat-dis .me .chat {
+    background-color: green;
+    display: inline;
+}
+
+.chat-date {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(119, 119, 119);
+}
+.chat-container .inner .chat .me .chat{
+    
+    float: left;
+}
+
+.chat-container .inner .chats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-basis: 40%;
+    box-shadow: 0px 0px 32px 0px rgba(125, 109, 114, 0.12);
+    padding: 0.8rem 1.6rem;
+}
+
+.chat-container .inner .chats  .chat-item span{
+display:block;
+}
+.chat-container .inner .chats  .chat-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chat-container .inner .chats .chat-item .cal 
+{
+    text-align: center;
+    color: rgb(227, 41, 100);
+    border-radius: 10px;
+}
+.chat-container .inner .chats .chat-item .user-info 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/* ----------------------all image in user info radious -------- */
+.chat-container .inner .chats .chat-item .user-info img 
+{
+    border-radius: 5px;
+}
+.chat-container .inner .chats .chat-item .user-info  .text 
+{
+    direction: rtl;
+    padding: 0 1rem;
+    font-size: 14px;
+    color: black;   
+}
+.chat-container .inner .chats .chat-item .user-info  .text  span:nth-child(2) {
+ color: rgba(125, 109, 114, 0.52);
+}
+.chat-container .inner .chat .chat-dis .me 
+{
+    
+    display:block;
+   direction: ltr;
+    background-color: #f2f2f2;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+    color: rgb(119, 119, 119);
+} 
+/* -----------input in box-------------- */
+.chat-container .inner .chat .text-box
+{
+    background-color: rgb(237 ,237,237);
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.chat-container .inner .chat .text-box .input-box {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding: 0.1rem;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+}
+.chat-container .inner .chat .text-box .input-box input[type="text"]
+{
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    outline: none;
+    border: none;
+    padding: 0.5rem 0.3rem;
+    font-size: 16px;
+    
+}
+.chat-container .inner .chat .text-box .input-box input[type="text"] a {
+    padding: 0 1rem;
+}
+/* ------dashbord Header ------------ */
+.dashbord-button 
+{
+    padding: 0.2rem 1rem;
+    font-family: vazir;
+    font-size: 14px;
+    background: rgb(237, 237, 237);
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(237, 237, 237);
+    color: rgba(0, 0, 0, .75);
+    cursor: pointer;
+}
+.header .dash-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 1rem
+}
+.header .dash-actions .dashbord-button .icon 
+{
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
