@@ -253,7 +253,82 @@ color: rgb(227, 41, 100);
 .footer .footers .social a:hover {
     color:rgba(227, 41, 100,0.65)
 }
-
-
-
-
+/* ---------------------------sign in --------------- */
+.signin-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 6rem;
+    left:0;
+}
+.signin-container .signin 
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    box-shadow: 0px 0px 32px 0px rgba(125, 109, 114, 0.12);
+    padding: 2rem 2rem;
+    gap: 32px;
+}
+.signin-container .signin .logo 
+{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-container .signin  .right{
+        direction: rtl;
+}
+.signin-container .signin  .right form 
+{
+    margin-top :1rem
+}
+.signin-container .signin  .right form .email,.password,.group 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    margin-top: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    
+}
+.signin-container .signin .right form input[type="text"]
+{
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: vazir;
+background-color: rgb(242, 242, 242);
+}
+.signin-container .signin .right form label
+{
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 14px;
+    vertical-align:middle;
+}
+.signin-container .signin .right form button {
+    width: 100%;
+    font-family: vazir;
+    background: rgb(227, 41, 100);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    outline:none;
+    border: 1px solid rgb(227, 41, 100);
+    margin-top: 1rem;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signin-container .signin .right form span 
+{
+    margin-top: 1rem;
+}
